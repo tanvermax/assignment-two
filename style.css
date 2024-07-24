@@ -1,0 +1,980 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/real-miami");
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+header {
+    background-image: linear-gradient(180deg,
+            rgb(24, 23, 23) 25%,
+            rgb(37, 35, 35) 40%,
+            rgb(37, 35, 35) 50%,
+            rgb(5, 5, 5) 90%,
+            rgb(0, 0, 0) 100%);
+    height: 52rem;
+}
+
+.header_container {
+    padding: 4% 12%;
+    background-image: url("images/Images\ 2.png");
+    background-repeat: no-repeat;
+    background-position: 80% 100%;
+    background-size: 450px;
+}
+
+.top_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fit_logo {
+    color: rgb(230, 83, 60);
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+    font-style: italic;
+}
+
+.links {
+    border: 1px solid rgb(148, 145, 145);
+    border-radius: 50px;
+    height: 53px;
+}
+
+.header_container .top_nav a {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.links a {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 1.305rem;
+    position: relative;
+    padding-right: 3.26rem;
+    top: 13px;
+    width: 106px;
+    height: 44px;
+    /* display: flex; */
+    /* background-color: rgb(230, 83, 60); */
+    border-radius: 30px;
+}
+
+.links a:hover {
+    background-color: rgb(230, 83, 60);
+    border-radius: 30px;
+    height: 500px;
+}
+
+.icon {
+    border: 1px solid aliceblue;
+    display: hidden;
+}
+
+.shp {
+    font-family: "Real Miami", sans-serif;
+    font-weight: 10;
+}
+
+.get_body {
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-top: 9%;
+    justify-content: space-between;
+}
+
+.get {
+    font-size: 5.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+}
+
+.get_div {
+    width: 740px;
+}
+
+.A_hue {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: rgb(139, 139, 139);
+    font-family: "Inter", sans-serif;
+    line-height: 40px;
+}
+
+.buttn_div {
+    margin-top: 40px;
+}
+
+.join {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(15, 14, 14);
+    color: aliceblue;
+}
+
+.join:hover {
+    background-color: rgb(230, 83, 60);
+    box-shadow: 0px 0px 100px 0px rgba(136, 129, 129, 0.8);
+}
+
+#join_id {
+    background-color: rgb(230, 83, 60);
+}
+
+.tutorial {
+    /* border: 1px solid rgb(122, 122, 122); */
+    font-family: "Inter", sans-serif;
+    padding: 20px;
+    position: relative;
+    top: 2px;
+    right: -50px;
+    border-radius: 10px;
+    text-align: left;
+    background-image: linear-gradient(rgba(85, 77, 77, 0.705),
+            rgba(114, 105, 105, 0.555),
+            rgba(83, 78, 78, 0.692));
+}
+
+.tutorial h3 {
+    font-size: 4.357rem;
+}
+
+.tutorial p {
+    color: rgb(154, 159, 163);
+    font-size: 0.9rem;
+}
+
+#free_v {
+    position: relative;
+    top: 270px;
+    right: 380px;
+    display: flex;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+}
+
+/* section  */
+
+section {
+    padding: 6% 12%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+}
+
+/* sssssssssssssss */
+.change_y {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.change_y .habit p {
+    color: rgb(138, 141, 143);
+    margin-top: 20px;
+}
+
+.habit {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.change_y .habit h2 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+}
+
+.image_Sec {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    justify-content: space-between;
+}
+
+.image_Sec h4 {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.image_Sec p {
+    color: rgb(88, 86, 86);
+    margin-top: 20px;
+    font-size: 1rem;
+    width: 220px;
+}
+
+.image_Sec img {
+    border: 5px solid rgba(255, 255, 255, 0.158);
+    border-radius: 50%;
+}
+
+/* 2ND SECTION */
+.border_div {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 400px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(71, 71, 71, 0.705),
+            rgba(65, 62, 62, 0.808),
+            rgba(83, 78, 78, 0.692));
+}
+
+.border_div .run {
+    width: 460px;
+}
+
+.border_div .run h2 {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.border_div .run p {
+    font-size: 1rem;
+    color: rgb(114, 115, 116);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.border_div .run_img img {
+    height: 100%;
+    border-radius: 20px;
+}
+
+#join_di {
+    background-color: rgb(230, 83, 60);
+}
+
+.training_photo_div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+/* .photo_sec1{
+    width: 1053px;
+}
+.photo_sec1 img{
+    margin: -3px -3px;
+}
+
+.photo_sec2{
+    width: 1053px;
+}
+.photo_sec2 img{
+    margin: -3px -3px;
+    align-content: space-evenly;
+} */
+.traning h2 {
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+.traning p {
+    color: rgb(141, 144, 146);
+    margin: 30px 0px;
+    width: 900px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.training_photo_div img{
+    height: 200px;
+}
+
+
+/* 3rd section */
+.BMI {
+    color: aliceblue;
+
+}
+
+.bmi_title {
+    text-align: left;
+    width: 830px;
+    margin-left: 400px;
+    margin-bottom: 5%;
+}
+
+.bmi_title h2 {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.bmi_title p {
+    font-size: 1.2rem;
+    color: rgb(138, 140, 141);
+    line-height: 30px;
+
+}
+
+table {
+    border: 1px solid white;
+}
+
+.bmi_sec {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 33, 33);
+    padding: 4% 12%;
+}
+
+#bmi_div {
+    padding: 0px 0px;
+}
+
+.bmi_sec h2 {
+    font-size: 3rem;
+    margin: 10px 0px;
+}
+
+.bmi_sec p {
+    font-size: 1.2rem;
+    color: rgb(147, 148, 148);
+    margin: 10px 0px;
+    line-height: 40px;
+}
+
+.bmi_calculator {
+    width: 720px;
+}
+
+
+.bmi_sec,
+.bmi_calculator,
+.bmi_sec h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.we_b {
+    width: 700px;
+}
+
+.bmi_sec,
+.bmi_calculator,
+.bmi_sec p {
+    font-size: 1.08rem;
+    font-weight: 400;
+}
+
+#BMIBMI {
+    height: 60px;
+    width: 330px;
+    background-color: rgba(190, 190, 190, 0.13);
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    padding-left: 20px;
+}
+
+#BMIBM {
+    height: 60px;
+    width: 684px;
+    background-color: rgba(190, 190, 190, 0.13);
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    padding-left: 20px;
+}
+
+.stuatus_info {
+    display: flex;
+    margin-top: 70px;
+}
+
+.stuatus_info .status ul {
+    border: 1px solid rgba(155, 149, 149, 0.26);
+    height: 40px;
+    width: 170px;
+    /* text-align: left;
+    align-content: center; */
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 1.2rem;
+    color: rgb(121, 123, 124);
+}
+
+#light {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+#join_idtwo {
+    width: 320px;
+    height: 80px;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    background-color: rgb(230, 83, 60);
+}
+
+/* 4rth section */
+.our_team {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team_member {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    border-radius: 30px;
+    padding: 30px;
+    background-image: linear-gradient(rgb(43, 39, 39),
+            rgba(51, 49, 49, 0.555),
+            rgba(37, 36, 36, 0.692));
+}
+
+.our_team p {
+    margin-top: 20px;
+}
+
+#team {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    align-content: end;
+
+}
+
+.our_team h2 {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.our_team p {
+    font-size: 1.2rem;
+    color: rgb(154, 156, 156);
+}
+
+/* .team_member h2 {
+    font-size: 1rem;
+    margin: 20px;
+} */
+#team h3 {
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#team p {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.team_member p {
+    font-size: 1.2rem;
+    color: rgb(134, 134, 134);
+}
+
+.team_photo1 {
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer1.png");
+}
+
+.team_photo2 {
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer2.png");
+}
+
+.team_photo3 {
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer3.png");
+}
+
+.team_photo4 {
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer4.png");
+}
+
+.team_photo5 {
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer5.png");
+}
+
+.team_photo6 {
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer6.png");
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(29, 28, 28);
+    padding: 6% 12%;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+}
+
+.about_us {
+    width: 550px;
+}
+
+.about_us a {
+    text-decoration: none;
+    font-size: 6rem;
+}
+
+.about_us p {
+    color: rgb(154, 156, 156);
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
+
+
+.about_us_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_us_div,
+.about_us p {
+    line-height: 30px;
+}
+
+.strarted {
+    display: flex;
+    justify-content: space-between;
+}
+
+.strarted .started h3 {
+    margin-bottom: 30px;
+
+}
+
+.strarted h3 {
+    font-size: 2.7rem;
+    padding-right: 50px;
+
+}
+
+.strarted ul {
+    font-size: 1.8rem;
+    color: rgb(154, 156, 156);
+    line-height: 70px;
+}
+
+.revers {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(154, 156, 156);
+    margin-top: 80px;
+}
+
+hr {
+    border: 1px solid rgb(82, 82, 82);
+    margin: 30px 0px;
+}
+
+
+/* responsiv */
+
+@media screen and (max-width:625px) {
+
+    header {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .top_nav {
+        margin-top: 50px;
+    }
+
+    .header_container {
+        padding: 4% 4%;
+        background-position: 80% 100%;
+        /* background-image: none; */
+        background-size: 400px;
+    }
+
+    .header_container {
+        padding-bottom: 0px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .icon {
+        display: active;
+        margin-right: 60px;
+    }
+
+    .fit_logo {
+        font-size: 3rem;
+    }
+
+    .header_container .top_nav a {
+        /* text-decoration: none;
+        text-align: center; */
+        padding-left: 10px;
+    }
+
+    .get {
+        font-size: 3rem;
+    }
+
+    .A_hue {
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+
+    .get_body {
+        display: inline-block;
+
+    }
+
+    .get_div {
+        width: 358px;
+        /* margin-top: 50px;
+        margin-bottom: 50px; */
+        margin: 50px 10px;
+    }
+
+    .buttn_div {
+        display: flex;
+
+
+    }
+
+    .join {
+        height: 60px;
+        width: 190px;
+
+        border: 1px solid white;
+        /* font-size: 20px;
+        font-family: "Inter", sans-serif; */
+        background-color: rgba(15, 14, 14, 0);
+        /* color: aliceblue; */
+    }
+
+    #join_id {
+        margin-left: 10px;
+        border: none;
+    }
+
+    #don {
+        position: relative;
+        left: 30px;
+    }
+
+    /* half heading */
+    .tutorial {
+        /* border: 1px solid rgb(122, 122, 122); */
+
+        padding: 10px;
+        width: 170px;
+        top: 90px;
+        right: -300px;
+        height: 90px;
+
+    }
+
+    .tut_div {
+        /* background-image: url("images/Images\ 2.png"); */
+        /* background-repeat: no-repeat; */
+        height: 650px;
+        /* background-position: 50% 100%; */
+
+    }
+
+    .tutorial h3 {
+        font-size: 3.357rem;
+    }
+
+
+    #free_v {
+        position: relative;
+        top: 170px;
+        right: -90px;
+
+    }
+
+    #free_v h3 {
+        font-size: 2rem;
+        margin-top: 19px;
+        margin-left: 5px;
+
+    }
+
+    #free_v p {
+        margin-left: 5px;
+    }
+
+    /* 1st section */
+
+    /* .change_y {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+} */
+    .change_y {
+        padding-top: 0px;
+    }
+
+    .change_y .habit p {
+        color: rgb(138, 141, 143);
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+
+    .habit {
+        width: 420px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .change_y .habit h2 {
+        font-size: 2.5rem;
+        font-weight: 1000;
+    }
+
+    .image_Sec {
+        display: inline;
+        margin: auto;
+
+    }
+
+    .image_Sec p {
+        margin-top: 0px;
+        font-size: 1.25rem;
+        width: 270px;
+        line-height: 30px;
+    }
+
+    .image_Sec div {
+        margin-bottom: 50px;
+    }
+
+    .mob {
+        margin: auto;
+    }
+
+    /* 2nd section responsive */
+    .border_div {
+        display: inline-block;
+        padding: 50px;
+        height: 50%;
+        width: 80%;
+    }
+
+    .border_div .run {
+        width: 89%;
+    }
+
+    .border_div .run h2 {
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+        font-weight: 900;
+        line-height: 60px;
+    }
+
+    .border_div .run p {
+        font-size: 1.2rem;
+        color: rgb(177, 177, 177);
+        margin-top: 20px;
+        margin-bottom: 50px;
+        line-height: 35px;
+        word-spacing: 5px;
+
+    }
+
+    .border_div .run_img img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    #join_di {
+        background-color: rgb(230, 83, 60);
+        border: none;
+        width: 110%;
+        height: 80px;
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+
+    section {
+        padding: 2% 4.5%;
+    }
+
+    /* 3rd section */
+    .traning {
+        width: 400px;
+    }
+
+    .traning h2 {
+        font-size: 3rem;
+    }
+
+    .traning p {
+        font-size: 1.3rem;
+        margin: 20px 0px;
+        width: 540px;
+        line-height: 40px;
+        word-spacing: 4px;
+    }
+
+    .training_photo_six {
+        display: none;
+    }
+
+    .training_photo_three {
+        display: none;
+    }
+
+    .training_photo_div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+        margin-bottom: 40px;
+
+    }
+
+    .training_photo_div img {
+        height: 100px;
+        width: fit-content;
+    }
+
+    .bmi_title {
+        width: 430px;
+        margin-left: 25px;
+    }
+
+    .bmi_title h2 {
+        font-size: 3rem;
+        font-weight: 900;
+
+    }
+
+    .bmi_title p {
+        font-size: 1.3rem;
+        margin: 20px 0px;
+        width: 540px;
+        line-height: 40px;
+        word-spacing: 4px;
+    }
+
+    .bmi_sec {
+        display: inline-block;
+        background-color: rgb(34, 33, 33);
+        padding: 4% 6%;
+    }
+
+    .stuatus_info {
+        margin-top: 20px;
+    }
+
+
+
+    .bmi_sec p {
+        font-size: 1.3rem;
+        margin: 20px 0px;
+        width: 540px;
+        line-height: 40px;
+        word-spacing: 4px;
+    }
+
+    .bmi_chart {
+        margin-bottom: 50px;
+    }
+
+    .bmi_calculator {
+        width: 550px;
+    }
+
+    #BMIBMI {
+        width: 230px;
+    }
+
+    #BMIBM {
+        width: 483px;
+    }
+
+    #join_idtwo {
+        border: none;
+    }
+
+
+
+
+    .team_member {
+        display: inline-block;
+        width: 90%;
+    }
+
+    #team {
+        margin-bottom: 30px;
+    }
+
+    .our_team {
+
+        margin: 50px 0px;
+    }
+
+    .our_team h2 {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .our_team p {
+        font-size: 1.3rem;
+        margin: 20px 0px;
+        width: 540px;
+        line-height: 40px;
+        word-spacing: 4px;
+    }
+
+
+    /* footer */
+
+    .about_us_div {
+        display: inline-block;
+    }
+
+    .about_us_div,
+    .about_us p {
+        font-size: 1.25rem;
+        margin: 20px 0px;
+        width: 460px;
+        line-height: 40px;
+        word-spacing: 4px;
+    }
+
+    .strarted {
+        display: inline-block;
+    }
+
+    .started h3 {
+        margin: 30px 0px;
+    }
+
+    .revers {
+        text-align: left;
+        font-size: 1.5rem;
+        color: rgb(154, 156, 156);
+        margin: 50px 0px;
+    }
+}
