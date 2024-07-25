@@ -3,8 +3,10 @@
 @import url("https://fonts.cdnfonts.com/css/real-miami");
 
 * {
-    margin: 0px 0px;
-    padding: 0px 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
 }
 
 header {
@@ -19,63 +21,78 @@ header {
 
 .header_container {
     padding: 4% 12%;
-    background-image: url("images/Images\ 2.png");
+    background-image: url("images/Images2.png");
     background-repeat: no-repeat;
     background-position: 80% 100%;
     background-size: 450px;
 }
 
-.top_nav {
+nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+
 }
 
-.fit_logo {
+.logo {
     color: rgb(230, 83, 60);
     font-family: "Inter", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.61rem;
     font-weight: 800;
     line-height: 120%;
     text-align: left;
     font-style: italic;
 }
 
-.links {
+
+nav ul {
+    display: flex;
     border: 1px solid rgb(148, 145, 145);
     border-radius: 50px;
-    height: 53px;
+    list-style: none;
+    padding: 15px 0px;
 }
 
-.header_container .top_nav a {
-    text-decoration: none;
-    text-align: center;
-    padding-left: 40px;
+nav ul li {
+    margin: 0px 5px;
 }
 
-.links a {
+nav ul li a {
     color: rgb(255, 255, 255);
-    font-family: "Inter", sans-serif;
-    font-size: 1.305rem;
-    position: relative;
-    padding-right: 3.26rem;
-    top: 13px;
-    width: 106px;
-    height: 44px;
-    /* display: flex; */
-    /* background-color: rgb(230, 83, 60); */
-    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all .3s ease;
 }
 
-.links a:hover {
+nav ul li a:hover,
+nav ul li a.active {
     background-color: rgb(230, 83, 60);
-    border-radius: 30px;
-    height: 500px;
 }
 
-.icon {
-    border: 1px solid aliceblue;
-    display: hidden;
+nav label i div {
+    width: 20px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: 3px 0;
 }
+
+#click {
+    display: none;
+}
+
+nav .menu_btn {
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+}
+
 
 .shp {
     font-family: "Real Miami", sans-serif;
@@ -90,13 +107,13 @@ header {
 }
 
 .get {
-    font-size: 5.5rem;
+    font-size: 5.655rem;
     font-family: "Inter", sans-serif;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .get_div {
-    width: 740px;
+    width: 603px;
 }
 
 .A_hue {
@@ -143,10 +160,12 @@ header {
     background-image: linear-gradient(rgba(85, 77, 77, 0.705),
             rgba(114, 105, 105, 0.555),
             rgba(83, 78, 78, 0.692));
+    width: 223px;
+    height: 113px;
 }
 
 .tutorial h3 {
-    font-size: 4.357rem;
+    font-size: 2.9rem;
 }
 
 .tutorial p {
@@ -297,7 +316,7 @@ section {
     font-size: 20px;
 }
 
-.training_photo_div img{
+.training_photo_div img {
     height: 200px;
 }
 
@@ -588,7 +607,7 @@ hr {
 
 /* responsiv */
 
-@media screen and (max-width:625px) {
+@media screen and (max-width:455px) {
 
     header {
         width: 100%;
@@ -596,9 +615,44 @@ hr {
 
     }
 
-    .top_nav {
-        margin-top: 50px;
+    nav ul {
+        position: fixed;
+        top: 80px;
+        right: -100%;
+        height: 50vh;
+        width: 100%;
+        display: block;
+        text-align: right;
+        border: none;
+        transition: all .3s ease;
     }
+
+    #click:checked~ul {
+        left: 0%;
+    }
+
+    /* #click:checked ~ .menu_btn:before{
+        content: "\f00d";
+    } */
+    nav ul li {
+        margin: 50px 0px;
+    }
+
+    nav ul li a {
+        background: none;
+    }
+
+    nav .menu_btn {
+        display: block;
+    }
+
+    /* nav label i div {
+        width: 25px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        margin: 3px 0;
+    } */
+
 
     .header_container {
         padding: 4% 4%;
