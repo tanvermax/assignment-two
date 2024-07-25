@@ -857,7 +857,7 @@ td {
         height: 50vh;
         width: 100%;
         display: block;
-        text-align: right;
+        text-align: left;
         border: none;
         transition: all .3s ease;
     }
@@ -1160,7 +1160,7 @@ td {
 
     #ex5 {
         background-image: linear-gradient(rgba(66, 255, 0, 0.45), rgba(66, 255, 0, 0.45)), url(images/exercise5.jpg);
-        width: 37vb;
+        width: 24.5vb;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -1239,6 +1239,7 @@ td {
         display: inline-block;
         background-color: rgb(34, 33, 33);
         padding: 4% 4%;
+        width: 100%;
     }
 
     .stuatus_info {
