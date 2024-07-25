@@ -118,7 +118,7 @@ nav .menu_btn {
 
 .A_hue {
     margin-top: 30px;
-    font-size: 1.5rem;
+    font-size: 1.16rem;
     color: rgb(139, 139, 139);
     font-family: "Inter", sans-serif;
     line-height: 40px;
@@ -133,10 +133,11 @@ nav .menu_btn {
     width: 200px;
     border-radius: 50px;
     border: none;
-    font-size: 20px;
+    font-size: 1.305rem;
     font-family: "Inter", sans-serif;
     background-color: rgb(15, 14, 14);
     color: aliceblue;
+    font-weight: 600;
 }
 
 .join:hover {
@@ -153,8 +154,8 @@ nav .menu_btn {
     font-family: "Inter", sans-serif;
     padding: 20px;
     position: relative;
-    top: 2px;
-    right: -50px;
+    top: 55px;
+
     border-radius: 10px;
     text-align: left;
     background-image: linear-gradient(rgba(85, 77, 77, 0.705),
@@ -170,7 +171,15 @@ nav .menu_btn {
 
 .tutorial p {
     color: rgb(154, 159, 163);
-    font-size: 0.9rem;
+    font-size: 0.94rem;
+}
+
+#free_v h3 {
+    font-size: 1.74rem;
+}
+
+#free_v p {
+    font-size: 1.16rem;
 }
 
 #free_v {
@@ -178,11 +187,12 @@ nav .menu_btn {
     top: 270px;
     right: 380px;
     display: flex;
+    justify-content: space-around;
 }
 
 .circle {
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     background-color: rgb(230, 83, 60);
     border-radius: 50%;
     position: relative;
@@ -212,12 +222,16 @@ section {
 .habit {
     width: 700px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 58px;
 }
 
 .change_y .habit h2 {
     color: rgb(255, 255, 255);
-    font-size: 4rem;
+    font-size: 3.48rem;
+}
+
+.habit p {
+    font-size: 1.16rem;
 }
 
 .image_Sec {
@@ -229,7 +243,7 @@ section {
 .image_Sec h4 {
     color: rgb(255, 255, 255);
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 1.305rem;
 }
 
 .image_Sec p {
@@ -249,7 +263,7 @@ section {
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    height: 400px;
+    height: 430px;
     border-radius: 20px;
     background-image: linear-gradient(rgba(71, 71, 71, 0.705),
             rgba(65, 62, 62, 0.808),
@@ -261,16 +275,21 @@ section {
 }
 
 .border_div .run h2 {
-    font-size: 4rem;
+    font-size: 3.48rem;
     color: rgb(255, 255, 255);
     margin-top: 20px;
+    font-weight: 900;
+    line-height: 120%;
 }
 
 .border_div .run p {
     font-size: 1rem;
     color: rgb(114, 115, 116);
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
 .border_div .run_img img {
@@ -305,25 +324,221 @@ section {
 } */
 .traning h2 {
     color: aliceblue;
-    font-size: 4rem;
+    font-size: 3.48rem;
 }
 
 .traning p {
     color: rgb(141, 144, 146);
     margin: 30px 0px;
-    width: 900px;
-    line-height: 40px;
-    font-size: 20px;
+    width: 778px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
-.training_photo_div img {
-    height: 200px;
+/* /////////////////////////////////// */
+
+.image-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
 }
+
+/* .image {
+    padding: 0;
+} */
+
+/* .image img {
+    width: 100%;
+    height: 278px;
+} */
+
+
+
+/* another try */
+#ex1 {
+    background-image: linear-gradient(rgba(6, 255, 210, 0.45),
+            rgba(6, 255, 210, 0.45)), url("images/exercise1.jpg");
+    width: 70vb;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ex1 p {
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    margin-top: 180px;
+}
+
+#ex2 {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.45),
+            rgba(255, 0, 0, 0.45)), url("images/exercise2.png");
+    width: 90vb;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ex2 p {
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+
+}
+
+#ex3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)), url("images/exercise3.png");
+    width: 65vb;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ex3 p {
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    width: 210px;
+    margin-top: 170px;
+}
+
+#ex4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)), url("images/exercise4.png");
+    width: 80vb;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ex4 p {
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    width: 210px;
+    margin-left: 280px;
+}
+
+
+#ex5 {
+    background-image: linear-gradient(rgba(66, 255, 0, 0.45),
+            rgba(66, 255, 0, 0.45)), url("images/exercise5.jpg");
+    width: 60vb;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ex5 p {
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    width: 210px;
+    margin-top: 170px;
+
+}
+
+#ex6 {
+    background-image: linear-gradient(rgba(0, 72, 255, 0.374),
+            rgba(0, 71, 255, 0.45)), url("images/exercise6.jpg");
+    width: 80vb;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ex6 p {
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    width: 210px;
+    margin-top: 170px;
+}
+
+
+
+/* 
+.image1 {
+    background-image: url("images/exercise1.jpg");
+    height: 250px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.image2 {
+    background-image: url("images/exercise2.png");
+    height: 250px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url("images/exercise3.png");
+    height: 250px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image11 {
+    background-image: url("images/exercise4.png");
+    height: 250px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image22 {
+    background-image: url("images/exercise5.jpg");
+    height: 250px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image33 {
+    background-image: url("images/exercise6.jpg");
+    height: 250px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+
+
+
 
 
 /* 3rd section */
 .BMI {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -349,7 +564,9 @@ section {
 table {
     border: 1px solid white;
 }
-
+.BMI_des{
+width: 669px;
+}
 .bmi_sec {
     display: flex;
     justify-content: space-between;
@@ -397,9 +614,9 @@ table {
 }
 
 #BMIBMI {
-    height: 60px;
-    width: 330px;
-    background-color: rgba(190, 190, 190, 0.13);
+    height: 55px;
+    width: 49%;
+    background-color: rgba(255, 255, 255, 0.1);
     border: none;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -408,9 +625,9 @@ table {
 }
 
 #BMIBM {
-    height: 60px;
-    width: 684px;
-    background-color: rgba(190, 190, 190, 0.13);
+    height: 55px;
+    width: 99%;
+    background-color: rgba(255, 255, 255, 0.1);
     border: none;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -418,21 +635,33 @@ table {
     padding-left: 20px;
 }
 
-.stuatus_info {
-    display: flex;
+.stuatus_info{
     margin-top: 70px;
+    width: 359px;
+    height: 250px;
 }
 
-.stuatus_info .status ul {
+.stuatus_info table tr td {
     border: 1px solid rgba(155, 149, 149, 0.26);
-    height: 40px;
-    width: 170px;
-    /* text-align: left;
-    align-content: center; */
-    padding-left: 50px;
-    padding-top: 15px;
-    font-size: 1.2rem;
-    color: rgb(121, 123, 124);
+    padding: 18px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.stuatus_info table tr th{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.16rem;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 15px 18px;
+    border: 1px solid rgba(155, 149, 149, 0.26);
 }
 
 #light {
@@ -604,6 +833,12 @@ hr {
     margin: 30px 0px;
 }
 
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
 /* responsiv */
 
@@ -828,7 +1063,7 @@ hr {
         display: inline-block;
         padding: 50px;
         height: 50%;
-        width: 80%;
+        width: 100%;
     }
 
     .border_div .run {
@@ -836,21 +1071,29 @@ hr {
     }
 
     .border_div .run h2 {
-        font-size: 3rem;
+        font-size: 2.332rem;
         color: rgb(255, 255, 255);
         margin-top: 20px;
+        font-family: Inter;
         font-weight: 900;
-        line-height: 60px;
+        line-height: 120%;
+        width: 316px;
+        text-align: left;
     }
 
     .border_div .run p {
-        font-size: 1.2rem;
-        color: rgb(177, 177, 177);
+        font-size: 1rem;
+
         margin-top: 20px;
         margin-bottom: 50px;
-        line-height: 35px;
-        word-spacing: 5px;
 
+
+        color: rgba(255, 255, 255, 0.5);
+
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
     }
 
     .border_div .run_img img {
@@ -862,8 +1105,8 @@ hr {
     #join_di {
         background-color: rgb(230, 83, 60);
         border: none;
-        width: 110%;
-        height: 80px;
+        width: 332px;
+        height: 63px;
         margin-bottom: 40px;
         font-weight: 700;
         font-size: 1.5rem;
@@ -880,18 +1123,76 @@ hr {
     }
 
     .traning h2 {
-        font-size: 3rem;
+        font-size: 2.32rem;
+        font-weight: 900;
     }
 
     .traning p {
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin: 20px 0px;
-        width: 540px;
+        width: 384px;
         line-height: 40px;
         word-spacing: 4px;
     }
 
-    .training_photo_six {
+    #ex1 {
+        background-image: linear-gradient(rgba(6, 255, 210, 0.45), rgba(6, 255, 210, 0.45)), url(images/exercise1.jpg);
+        width: 70vb;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #ex2 {
+        background-image: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url(images/exercise2.png);
+        width: 90vb;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right top;
+    }
+
+    #ex4 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(images/exercise4.png);
+        width: 25vb;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left top;
+    }
+
+    #ex5 {
+        background-image: linear-gradient(rgba(66, 255, 0, 0.45), rgba(66, 255, 0, 0.45)), url(images/exercise5.jpg);
+        width: 37vb;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #ex3 {
+        display: none;
+    }
+
+    #ex6 {
+        display: none;
+    }
+
+    #ex1 {
+        background-image: linear-gradient(rgba(6, 255, 210, 0.45), rgba(6, 255, 210, 0.45)), url(images/exercise1.jpg);
+        width: 70vb;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #ex4 p {
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: .8rem;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        width: 210px;
+        margin-left: 0px;
+    }
+
+    /* .training_photo_six {
         display: none;
     }
 
@@ -910,7 +1211,7 @@ hr {
     .training_photo_div img {
         height: 100px;
         width: fit-content;
-    }
+    } */
 
     .bmi_title {
         width: 430px;
@@ -918,37 +1219,46 @@ hr {
     }
 
     .bmi_title h2 {
-        font-size: 3rem;
+        font-size: 2.32rem;
         font-weight: 900;
 
     }
 
     .bmi_title p {
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin: 20px 0px;
-        width: 540px;
-        line-height: 40px;
-        word-spacing: 4px;
+        width: 409px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
     }
 
     .bmi_sec {
         display: inline-block;
         background-color: rgb(34, 33, 33);
-        padding: 4% 6%;
+        padding: 4% 4%;
     }
 
     .stuatus_info {
         margin-top: 20px;
     }
 
+    #light {
 
+        font-size: 1rem;
+    }
 
     .bmi_sec p {
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin: 20px 0px;
-        width: 540px;
-        line-height: 40px;
-        word-spacing: 4px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 409px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
     }
 
     .bmi_chart {
@@ -956,15 +1266,15 @@ hr {
     }
 
     .bmi_calculator {
-        width: 550px;
+        width: 100%;
     }
 
     #BMIBMI {
-        width: 230px;
+        width: 30%;
     }
 
     #BMIBM {
-        width: 483px;
+        width: 60%;
     }
 
     #join_idtwo {
@@ -989,16 +1299,19 @@ hr {
     }
 
     .our_team h2 {
-        font-size: 3rem;
+        font-size: 2.32rem;
         font-weight: 900;
     }
 
     .our_team p {
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin: 20px 0px;
-        width: 540px;
-        line-height: 40px;
-        word-spacing: 4px;
+        width: 358px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
     }
 
 
@@ -1008,13 +1321,16 @@ hr {
         display: inline-block;
     }
 
-    .about_us_div,
     .about_us p {
-        font-size: 1.25rem;
+        font-size: 1rem;
         margin: 20px 0px;
-        width: 460px;
-        line-height: 40px;
-        word-spacing: 4px;
+        width: 367px;
+        color: rgba(255, 255, 255, 0.5);
+
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
     }
 
     .strarted {
