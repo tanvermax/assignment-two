@@ -6,7 +6,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 header {
@@ -31,7 +30,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .logo {
@@ -43,7 +41,6 @@ nav {
     text-align: left;
     font-style: italic;
 }
-
 
 nav ul {
     display: flex;
@@ -68,7 +65,7 @@ nav ul li a {
     text-align: left;
     padding: 10px 20px;
     border-radius: 50px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover,
@@ -92,7 +89,6 @@ nav .menu_btn {
     cursor: pointer;
     display: none;
 }
-
 
 .shp {
     font-family: "Real Miami", sans-serif;
@@ -305,7 +301,6 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-
 }
 
 /* .photo_sec1{
@@ -344,7 +339,6 @@ section {
     margin: 0;
     padding: 0;
     width: 100%;
-
 }
 
 /* .image {
@@ -356,12 +350,11 @@ section {
     height: 278px;
 } */
 
-
-
 /* another try */
 #ex1 {
     background-image: linear-gradient(rgba(6, 255, 210, 0.45),
-            rgba(6, 255, 210, 0.45)), url("images/exercise1.jpg");
+            rgba(6, 255, 210, 0.45)),
+        url("images/exercise1.jpg");
     width: 70vb;
     background-repeat: no-repeat;
     background-size: cover;
@@ -380,7 +373,8 @@ section {
 
 #ex2 {
     background-image: linear-gradient(rgba(255, 0, 0, 0.45),
-            rgba(255, 0, 0, 0.45)), url("images/exercise2.png");
+            rgba(255, 0, 0, 0.45)),
+        url("images/exercise2.png");
     width: 90vb;
     background-repeat: no-repeat;
     background-size: cover;
@@ -394,12 +388,11 @@ section {
     font-weight: 500;
     line-height: 17px;
     letter-spacing: 0px;
-
 }
 
 #ex3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)), url("images/exercise3.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("images/exercise3.png");
     width: 65vb;
     background-repeat: no-repeat;
     background-size: cover;
@@ -418,8 +411,8 @@ section {
 }
 
 #ex4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)), url("images/exercise4.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("images/exercise4.png");
     width: 80vb;
     background-repeat: no-repeat;
     background-size: cover;
@@ -437,10 +430,10 @@ section {
     margin-left: 280px;
 }
 
-
 #ex5 {
     background-image: linear-gradient(rgba(66, 255, 0, 0.45),
-            rgba(66, 255, 0, 0.45)), url("images/exercise5.jpg");
+            rgba(66, 255, 0, 0.45)),
+        url("images/exercise5.jpg");
     width: 60vb;
     background-repeat: no-repeat;
     background-size: cover;
@@ -456,12 +449,12 @@ section {
     letter-spacing: 0px;
     width: 210px;
     margin-top: 170px;
-
 }
 
 #ex6 {
     background-image: linear-gradient(rgba(0, 72, 255, 0.374),
-            rgba(0, 71, 255, 0.45)), url("images/exercise6.jpg");
+            rgba(0, 71, 255, 0.45)),
+        url("images/exercise6.jpg");
     width: 80vb;
     background-repeat: no-repeat;
     background-size: cover;
@@ -478,8 +471,6 @@ section {
     width: 210px;
     margin-top: 170px;
 }
-
-
 
 /* 
 .image1 {
@@ -530,16 +521,9 @@ section {
     background-size: cover;
 } */
 
-
-
-
-
-
-
 /* 3rd section */
 .BMI {
     color: rgb(255, 255, 255);
-
 }
 
 .bmi_title {
@@ -558,15 +542,16 @@ section {
     font-size: 1.2rem;
     color: rgb(138, 140, 141);
     line-height: 30px;
-
 }
 
 table {
     border: 1px solid white;
 }
-.BMI_des{
-width: 669px;
+
+.BMI_des {
+    width: 669px;
 }
+
 .bmi_sec {
     display: flex;
     justify-content: space-between;
@@ -593,7 +578,6 @@ width: 669px;
 .bmi_calculator {
     width: 720px;
 }
-
 
 .bmi_sec,
 .bmi_calculator,
@@ -635,7 +619,7 @@ width: 669px;
     padding-left: 20px;
 }
 
-.stuatus_info{
+.stuatus_info {
     margin-top: 70px;
     width: 359px;
     height: 250px;
@@ -652,7 +636,7 @@ width: 669px;
     text-align: left;
 }
 
-.stuatus_info table tr th{
+.stuatus_info table tr th {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 1.16rem;
@@ -707,7 +691,6 @@ width: 669px;
     background-size: cover;
     border-radius: 30px;
     align-content: end;
-
 }
 
 .our_team h2 {
@@ -741,27 +724,45 @@ width: 669px;
 }
 
 .team_photo1 {
-    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer1.png");
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219),
+            rgba(51, 51, 51, 0.171),
+            rgba(31, 31, 31, 0.164)),
+        url("images/trainer1.png");
 }
 
 .team_photo2 {
-    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer2.png");
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219),
+            rgba(51, 51, 51, 0.171),
+            rgba(31, 31, 31, 0.164)),
+        url("images/trainer2.png");
 }
 
 .team_photo3 {
-    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer3.png");
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219),
+            rgba(51, 51, 51, 0.171),
+            rgba(31, 31, 31, 0.164)),
+        url("images/trainer3.png");
 }
 
 .team_photo4 {
-    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer4.png");
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219),
+            rgba(51, 51, 51, 0.171),
+            rgba(31, 31, 31, 0.164)),
+        url("images/trainer4.png");
 }
 
 .team_photo5 {
-    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer5.png");
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219),
+            rgba(51, 51, 51, 0.171),
+            rgba(31, 31, 31, 0.164)),
+        url("images/trainer5.png");
 }
 
 .team_photo6 {
-    background-image: linear-gradient(rgba(36, 36, 36, 0.219), rgba(51, 51, 51, 0.171), rgba(31, 31, 31, 0.164)), url("images/trainer6.png");
+    background-image: linear-gradient(rgba(36, 36, 36, 0.219),
+            rgba(51, 51, 51, 0.171),
+            rgba(31, 31, 31, 0.164)),
+        url("images/trainer6.png");
 }
 
 /* footer */
@@ -788,7 +789,6 @@ footer {
     margin-top: 50px;
 }
 
-
 .about_us_div {
     display: flex;
     justify-content: space-between;
@@ -806,13 +806,11 @@ footer {
 
 .strarted .started h3 {
     margin-bottom: 30px;
-
 }
 
 .strarted h3 {
     font-size: 2.7rem;
     padding-right: 50px;
-
 }
 
 .strarted ul {
@@ -842,14 +840,14 @@ td {
 
 /* responsiv */
 
-@media screen and (max-width:455px) {
-
+@media screen and (max-width: 455px) {
     header {
         width: 100%;
         height: 100%;
-
     }
-
+  body{
+    overflow-x: hidden;
+  }
     nav ul {
         position: fixed;
         top: 80px;
@@ -859,7 +857,7 @@ td {
         display: block;
         text-align: left;
         border: none;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
     }
 
     #click:checked~ul {
@@ -887,7 +885,6 @@ td {
         background-color: rgb(255, 255, 255);
         margin: 3px 0;
     } */
-
 
     .header_container {
         padding: 4% 4%;
@@ -930,7 +927,6 @@ td {
 
     .get_body {
         display: inline-block;
-
     }
 
     .get_div {
@@ -942,8 +938,6 @@ td {
 
     .buttn_div {
         display: flex;
-
-
     }
 
     .join {
@@ -969,14 +963,11 @@ td {
 
     /* half heading */
     .tutorial {
-        /* border: 1px solid rgb(122, 122, 122); */
-
-        padding: 10px;
-        width: 170px;
+        padding: 18px;
+        width: 168px;
         top: 90px;
-        right: -300px;
-        height: 90px;
-
+        right: -250px;
+        height: 85px;
     }
 
     .tut_div {
@@ -984,30 +975,42 @@ td {
         /* background-repeat: no-repeat; */
         height: 650px;
         /* background-position: 50% 100%; */
-
     }
 
     .tutorial h3 {
-        font-size: 3.357rem;
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 30.24px;
+        letter-spacing: 0.76px;
+        text-align: left;
     }
 
+    .tutorial p {
+        color: rgb(154, 159, 163);
+        font-size: 0.65rem;
+    }
 
     #free_v {
         position: relative;
         top: 170px;
-        right: -90px;
-
+        right: -40px;
     }
 
     #free_v h3 {
-        font-size: 2rem;
-        margin-top: 19px;
-        margin-left: 5px;
-
+        font-size: 1.305rem;
+        /* margin-left: 5px; */
     }
-
+    .circle {
+        height: 34px;
+        width: 34px;
+        border-radius: 50%;
+        position: relative;
+        top: 5px;
+    }
     #free_v p {
-        margin-left: 5px;
+        /* s */
+        font-size: .87rem;
     }
 
     /* 1st section */
@@ -1040,7 +1043,6 @@ td {
     .image_Sec {
         display: inline;
         margin: auto;
-
     }
 
     .image_Sec p {
@@ -1083,11 +1085,8 @@ td {
 
     .border_div .run p {
         font-size: 1rem;
-
         margin-top: 20px;
         margin-bottom: 50px;
-
-
         color: rgba(255, 255, 255, 0.5);
 
         font-weight: 400;
@@ -1099,7 +1098,6 @@ td {
     .border_div .run_img img {
         height: 100%;
         width: 100%;
-
     }
 
     #join_di {
@@ -1111,7 +1109,6 @@ td {
         font-weight: 700;
         font-size: 1.5rem;
     }
-
 
     section {
         padding: 2% 4.5%;
@@ -1136,14 +1133,18 @@ td {
     }
 
     #ex1 {
-        background-image: linear-gradient(rgba(6, 255, 210, 0.45), rgba(6, 255, 210, 0.45)), url(images/exercise1.jpg);
+        background-image: linear-gradient(rgba(6, 255, 210, 0.45),
+                rgba(6, 255, 210, 0.45)),
+            url(images/exercise1.jpg);
         width: 70vb;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     #ex2 {
-        background-image: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url(images/exercise2.png);
+        background-image: linear-gradient(rgba(255, 0, 0, 0.45),
+                rgba(255, 0, 0, 0.45)),
+            url(images/exercise2.png);
         width: 90vb;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1151,16 +1152,19 @@ td {
     }
 
     #ex4 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(images/exercise4.png);
-        width: 25vb;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+            url(images/exercise4.png);
+        width: 35vb;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left top;
     }
 
     #ex5 {
-        background-image: linear-gradient(rgba(66, 255, 0, 0.45), rgba(66, 255, 0, 0.45)), url(images/exercise5.jpg);
-        width: 24.5vb;
+        background-image: linear-gradient(rgba(66, 255, 0, 0.45),
+                rgba(66, 255, 0, 0.45)),
+            url(images/exercise5.jpg);
+        width: 50.5vb;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -1174,7 +1178,9 @@ td {
     }
 
     #ex1 {
-        background-image: linear-gradient(rgba(6, 255, 210, 0.45), rgba(6, 255, 210, 0.45)), url(images/exercise1.jpg);
+        background-image: linear-gradient(rgba(6, 255, 210, 0.45),
+                rgba(6, 255, 210, 0.45)),
+            url(images/exercise1.jpg);
         width: 70vb;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1184,7 +1190,7 @@ td {
         padding: 20px;
         font-family: "Inter", sans-serif;
         color: rgb(255, 255, 255);
-        font-size: .8rem;
+        font-size: 0.8rem;
         font-weight: 500;
         line-height: 17px;
         letter-spacing: 0px;
@@ -1221,7 +1227,6 @@ td {
     .bmi_title h2 {
         font-size: 2.32rem;
         font-weight: 900;
-
     }
 
     .bmi_title p {
@@ -1247,7 +1252,6 @@ td {
     }
 
     #light {
-
         font-size: 1rem;
     }
 
@@ -1282,9 +1286,6 @@ td {
         border: none;
     }
 
-
-
-
     .team_member {
         display: inline-block;
         width: 90%;
@@ -1295,7 +1296,6 @@ td {
     }
 
     .our_team {
-
         margin: 50px 0px;
     }
 
@@ -1314,7 +1314,6 @@ td {
         letter-spacing: 0.3px;
         text-align: center;
     }
-
 
     /* footer */
 
